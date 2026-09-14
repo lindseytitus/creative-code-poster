@@ -10,14 +10,14 @@ let circleRadius = 75;   // How far from the center the spheres sit
 
 async function setup() {
   
-  backgroundImg = await loadImage('/assets/background.png');
-  lenstex = await loadImage('/assets/lenstex.png');
-  backcamtex = await loadImage('/assets/back-camera.png');
-  cameratex = await loadImage('/assets/cameratex.png');
-  highlight = await loadImage('/assets/highlight.png');
+  backgroundImg = await loadImage('./assets/background.png');
+  lenstex = await loadImage('./assets/lenstex.png');
+  backcamtex = await loadImage('./assets/back-camera.png');
+  cameratex = await loadImage('./assets/cameratex.png');
+  highlight = await loadImage('./assets/highlight.png');
 
   
-  font = await loadFont('/assets/Staatliches-Regular.ttf');
+  font = await loadFont('./assets/Staatliches-Regular.ttf');
 
   createCanvas(1470, 830, WEBGL);
   smooth();
