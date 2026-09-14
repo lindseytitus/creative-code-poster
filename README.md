@@ -1,5 +1,7 @@
 # Week 2 
 
+## [View poster](https://lindseytitus.github.io/creative-code-poster/)
+
 ## Credits
 
 
